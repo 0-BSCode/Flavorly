@@ -13,8 +13,7 @@ const RecipeList = () => {
   }, []);
 
   return (
-    <section>
-      <h1>Recipe List</h1>
+    <section className='flex flex-col gap-5 items-center'>
       {recipes.map((r) => (
         <RecipeCard key={r.id} recipe={r} />
       ))}
