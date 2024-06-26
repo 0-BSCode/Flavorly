@@ -7,15 +7,9 @@ export interface Recipe {
   name: string;
   imgUrl: string;
   description: string;
-  ingredients: Ingredient[];
+  ingredients: string[];
   instructions: string[];
   difficulty: RecipeDifficultyEnum;
-  cookTime: string;
+  cookTime: number;
   category: FoodCategory;
-}
-
-export interface Ingredient {
-  name: string;
-  quantity: number;
-  unit: string;
 }

@@ -1,6 +1,6 @@
 export enum FoodCategory {
-  BREAKFAST = "Breakfast",
-  LUNCH = "Lunch",
-  DINNER = "Dinner",
-  DESSERT = "Dessert",
+  BREAKFAST = "breakfast",
+  LUNCH = "lunch",
+  DINNER = "dinner",
+  DESSERT = "dessert",
 }

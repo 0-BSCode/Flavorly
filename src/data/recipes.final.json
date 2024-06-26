@@ -1,0 +1,390 @@
+[
+  {
+    "id": 1,
+    "name": "Pancakes",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/yNaovEQ4pRuusa-qHs-9SLtuZGs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__05__Pancake-Mix-LEAD-08-a65e8184e74542a6b0ecac9dedd9decc.jpg",
+    "description": "Delicious fluffy pancakes for breakfast",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "1 tablespoon sugar",
+      "1 teaspoon baking powder",
+      "1/2 teaspoon salt",
+      "1 cup milk",
+      "1 egg",
+      "2 tablespoons melted butter"
+    ],
+    "instructions": [
+      "In a bowl, mix flour, sugar, baking powder, and salt.",
+      "In another bowl, whisk milk, egg, and melted butter.",
+      "Combine wet and dry ingredients, mix until just combined.",
+      "Heat a skillet over medium heat and pour 1/4 cup of batter for each pancake.",
+      "Cook until bubbles form on the surface, flip and cook until golden brown.",
+      "Serve hot with maple syrup or toppings of your choice."
+    ],
+    "difficulty": "beginner",
+    "category": "breakfast",
+    "cookTime": 10
+  },
+  {
+    "id": 2,
+    "name": "Caprese Salad",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/gCoa8IKZkJXQ3dSIfNet6egPNMs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Caprese-Salad-LEAD-3-e37b507141a5432089453fe2c83f26dd.jpg",
+    "description": "A simple and refreshing salad with fresh tomatoes, mozzarella, and basil",
+    "ingredients": [
+      "2 large ripe tomatoes",
+      "8 oz fresh mozzarella cheese",
+      "1/4 cup fresh basil leaves",
+      "2 tablespoons extra virgin olive oil",
+      "1 tablespoon balsamic vinegar",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella into 1/4 inch thick slices.",
+      "Arrange tomato, mozzarella, and basil leaves on a serving platter.",
+      "Drizzle with olive oil and balsamic vinegar.",
+      "Season with salt and pepper to taste.",
+      "Serve immediately as a fresh and light appetizer or side dish."
+    ],
+    "difficulty": "beginner",
+    "category": "dessert",
+    "cookTime": 15
+  },
+  {
+    "id": 3,
+    "name": "Chicken Alfredo Pasta",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/YxQgj9XN9ypTQar07ghg-AXnsSg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__01__Easy-Chicken-Alfredo-LEAD-4-da6de7550cf54deaa91dff71e58fefc6.jpg",
+    "description": "Creamy and indulgent pasta dish with tender chicken and rich alfredo sauce",
+    "ingredients": [
+      "8 oz fettuccine pasta",
+      "2 boneless, skinless chicken breasts",
+      "2 tablespoons butter",
+      "2 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions, drain and set aside.",
+      "Season chicken breasts with salt and pepper, cook in a skillet until no longer pink.",
+      "Remove chicken, melt butter in the same skillet, add garlic and sauté until fragrant.",
+      "Pour in heavy cream, simmer until slightly thickened.",
+      "Stir in Parmesan cheese until melted and smooth.",
+      "Slice chicken, toss with pasta and alfredo sauce, serve hot."
+    ],
+    "difficulty": "intermediate",
+    "category": "dinner",
+    "cookTime": 35
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Stir-Fry",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/5F82-LNXErr4SS9GrlUztFpMzOE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-07-bb2e3a9f291143969f94d0b0ae62ed66.jpg",
+    "description": "Colorful and nutritious stir-fry with a variety of vegetables and a savory sauce",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 cup sliced bell peppers",
+      "1 cup sliced carrots",
+      "1/2 cup snow peas",
+      "1/4 cup soy sauce",
+      "2 tablespoons oyster sauce",
+      "1 tablespoon cornstarch",
+      "1 tablespoon vegetable oil"
+    ],
+    "instructions": [
+      "In a small bowl, mix soy sauce, oyster sauce, and cornstarch.",
+      "Heat oil in a wok or skillet over high heat.",
+      "Add vegetables and stir-fry until crisp-tender.",
+      "Pour in sauce mixture, cook until thickened.",
+      "Serve hot over steamed rice or noodles."
+    ],
+    "difficulty": "intermediate",
+    "category": "lunch",
+    "cookTime": 20
+  },
+  {
+    "id": 5,
+    "name": "Garlic Bread",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/-yFt9YmNPJe3hubNxM0i6NY2RbU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Garlic-Bread-METHOD-2-3-1c5f5cfa8bf6408c84c0596eea83f8e8.jpg",
+    "description": "Buttery and savory homemade bread with a delicious garlic flavor",
+    "ingredients": [
+      "1 (14.1 oz) package active dry yeast",
+      "3 cups all-purpose flour",
+      "1 1/2 cups whole wheat flour",
+      "1/2 cup butter, softened",
+      "1 cup warm milk",
+      "3 cloves garlic, minced",
+      "1 teaspoon salt"
+    ],
+    "instructions": [
+      "In a large bowl, mix yeast, flours, and salt.",
+      "In another bowl, whisk milk, butter, and garlic until smooth.",
+      "Pour wet ingredients into dry ingredients and mix until combined.",
+      "Knead the dough for 10 minutes until smooth and elastic.",
+      "Form into a ball, place in a greased bowl, cover, and let rise in a warm place for 1 hour, or until doubled in size.",
+      "Preheat oven to 375 degrees.",
+      "Punch down the dough, shape into a loaf, and bake for 25-30 minutes, or until golden brown.",
+      "Let cool for 10 minutes before slicing."
+    ],
+    "difficulty": "beginner",
+    "category": "breakfast",
+    "cookTime": 25
+  },
+  {
+    "id": 6,
+    "name": "Beef and Broccoli Stew",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/hvJ0mhuS32phQ-U_shI88seJXy4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Oxtail-Stew-LEAD-3-9e9b9f44ca1341ffb6060a66217ad2cb.jpg",
+    "description": "Hearty stew with tender beef and crisp broccoli florets",
+    "ingredients": [
+      "1 pound beef stew meat",
+      "2 tablespoons olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 cup broccoli florets",
+      "1/4 cup soy sauce",
+      "1/4 cup water",
+      "1 tablespoon cornstarch",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a large saucepan over medium heat.",
+      "Add onion and garlic and cook until softened, about 5 minutes.",
+      "Add beef and cook until browned, about 5 minutes.",
+      "Add broccoli, soy sauce, water, and cornstarch.",
+      "Bring to a simmer and cook for 20 minutes, or until thickened and the broccoli is tender-crisp.",
+      "Season with salt and pepper to taste.",
+      "Serve hot over rice and enjoy!"
+    ],
+    "difficulty": "advanced",
+    "category": "dinner",
+    "cookTime": 40
+  },
+  {
+    "id": 7,
+    "name": "Shrimp and Grits",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/q-pXYdO-kcZs83r54veMkwVD52Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__06__shrimp-grits-horiz-a-1200-f2fa3352060b4caba97aecee8f1af481.jpg",
+    "description": "Savory and comforting dish with shrimp and creamy grits",
+    "ingredients": [
+      "1 pound large shrimp, peeled and deveined",
+      "1 cup long-grain rice",
+      "4 cups water",
+      "1 tablespoon butter",
+      "1/2 cup heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Rinse the rice in a fine mesh strainer and drain.",
+      "Heat butter in a large saucepan over medium heat.",
+      "Add rice and cook until lightly toasted, about 5 minutes.",
+      "Add water and stir to coat the rice. Increase heat to high and bring to a boil.",
+      "Reduce heat to low and simmer, covered, for 18-20 minutes, or until rice is tender.",
+      "Meanwhile, bring a large pot of water to a boil.",
+      "Add the shrimp and cook until pink and fully cooked, about 3-4 minutes.",
+      "Drain the shrimp and return to the pot.",
+      "Add heavy cream and cook until the sauce thickens.",
+      "Stir in salt and pepper to taste.",
+      "Pour the grits over the shrimp and sauce."
+    ],
+    "difficulty": "advanced",
+    "category": "breakfast",
+    "cookTime": 30
+  },
+
+  {
+    "id": 8,
+    "name": "Pork Chops with Apples",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/19-dS89dQExu501qnbUuTsWOhSE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__09__pork-chops-ginger-pear-sauce-vertical-a-1200-8e2c7ddc3ca04840801a87ab7ba8c5e3.jpg",
+    "description": "Sweet and savory dish with tender pork chops and roasted apples",
+    "ingredients": [
+      "4 pork chops",
+      "2 apples, peeled and sliced",
+      "2 tablespoons olive oil",
+      "1/4 cup apple cider",
+      "1/4 cup brown sugar",
+      "1/4 cup butter",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400 degrees.",
+      "Heat olive oil in a large skillet over medium heat.",
+      "Add pork chops and cook until browned on both sides and cooked through.",
+      "Remove pork chops from the skillet and set aside.",
+      "Add sliced apples to the skillet and cook until tender, about 10-15 minutes.",
+      "In a small bowl, mix apple cider, brown sugar, and butter until smooth.",
+      "Pour the apple cider mixture into the skillet and stir to coat the apples.",
+      "Return pork chops to the skillet and stir to coat with the apple cider mixture.",
+      "Transfer the skillet to the oven and cook until the pork chops are heated through and the apples are caramelized.",
+      "Serve hot and enjoy!"
+    ],
+    "difficulty": "advanced",
+    "category": "lunch",
+    "cookTime": 25
+  },
+  {
+    "id": 9,
+    "name": "Turkey and Mashed Potatoes",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/jARyr_clX6v6LbPQtLy87nYkqEY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Instant-Pot-Turkey-Breast-LEAD-04-dd7303ba31894019bb50578be5122b19.jpg",
+    "description": "Classic comfort food dish with a creamy mashed potato side",
+    "ingredients": [
+      "1 whole turkey, thawed",
+      "4 medium potatoes, peeled and cubed",
+      "1/4 cup butter",
+      "1/2 cup heavy cream",
+      "1/2 cup grated cheddar cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 350 degrees.",
+      "Rub turkey with butter and season with salt and pepper.",
+      "Place turkey in a roasting pan and roast for about 4-5 hours, or until cooked to a desired level of doneness.",
+      "While turkey is roasting, boil the potatoes in a large pot of salted water until tender.",
+      "Drain the potatoes and transfer to a large mixing bowl.",
+      "Add heavy cream, grated cheese, salt, and pepper to the mixing bowl and stir until smooth and creamy."
+    ],
+    "difficulty": "advanced",
+    "category": "dinner",
+    "cookTime": 70
+  },
+  {
+    "id": 10,
+    "name": "Eggs Benedie",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/OJl_V15xA6QZ7Z0_Q5QZQxQZNY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Eggs-Benedict-LEAD-03-c589993855944737857d69ed210b5823.jpg",
+    "description": "Classic breakfast dish with poached eggs and hollandaise sauce",
+    "ingredients": ["4 eggs", "1 cup hollandaise sauce (see below)", "4 slices of bread", "Butter and salt to taste"],
+    "instructions": [
+      "Poach eggs until set.",
+      "In a saucepan, whisk together egg yolks and a pinch of salt.",
+      "Slowly pour in a beaten egg whites and whisk until stiff peaks form.",
+      "Split each egg into its Benedie shell.",
+      "Drizzle each egg with hollandaise sauce and top with hollandaise sauce.",
+      "Serve with toast and enjoy!"
+    ],
+    "difficulty": "advanced",
+    "category": "breakfast",
+    "cookTime": 25
+  },
+  {
+    "id": 11,
+    "name": "Chicken and Rice Casserole",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/lBLtaAQxCK_krasvR3w478P6SQ4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Rice-Casserole-2-LEAD-05.3-7d4af83d9b92493f9d21cd8d5f262941.jpg",
+    "description": "Creamy and flavorful casserole with chicken and rice",
+    "ingredients": [
+      "1 pound boneless chicken breast, diced",
+      "1 cup uncooked white rice",
+      "1/2 cup milk",
+      "1/2 cup shredded cheddar cheese",
+      "1/4 cup butter",
+      "1/4 cup all-purpose flour",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 350 degrees.",
+      "In a large saucepan, combine milk, butter, and flour.",
+      "Cook over medium heat until butter is melted and mixture is smooth.",
+      "Add chicken to the mixture and cook until chicken is no longer pink.",
+      "Add rice and cook until heated through.",
+      "Stir in cheese until melted and smooth.",
+      "Pour into a greased casserole dish and bake for 25-30 minutes, or until hot and bubbly."
+    ],
+    "difficulty": "intermediate",
+    "category": "dinner",
+    "cookTime": 40
+  },
+  {
+    "id": 12,
+    "name": "Quiche Lorraine",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/ARidzVl2GjKZYxeFqF6gafSGh9s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Quiche-Lorraine-LEAD-4-bbc2620b4ce444629038f602b6f1b533.jpg",
+    "description": "Puffed and flavorful quiche with bacon and cheese",
+    "ingredients": [
+      "2 eggs",
+      "1/2 cup heavy cream",
+      "1/2 cup grated cheese",
+      "1/2 cup diced ham or bacon",
+      "1/4 cup all-purpose flour",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375 degrees.",
+      "In a large mixing bowl, whisk together eggs, cream, cheese, salt, and pepper.",
+      "Add diced ham or bacon and stir until combined.",
+      "Pour into a greased pie dish and bake for 30-35 minutes, or until set.",
+      "Let cool before slicing and serving."
+    ],
+    "difficulty": "beginner",
+    "category": "dessert",
+    "cookTime": 45
+  },
+  {
+    "id": 13,
+    "name": "Spaghetti Bolognese",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/nQGdcRXq_x4wa3vboPx4r7ZBVPo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2005__11__Bolognese-Sauce-LEAD-2-8bb9d39957474e3396eab141cce7be90.jpg",
+    "description": "Meaty and flavorful pasta dish with ground beef and tomato sauce",
+    "ingredients": [
+      "1 pound ground beef",
+      "1 cup tomato sauce",
+      "1 cup spaghetti",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Brown ground beef in a large pan.",
+      "Add diced onion and minced garlic and cook until onion is translucent.",
+      "Add tomato sauce and bring to a boil.",
+      "Add spaghetti and cook until al dente.",
+      "Drain spaghetti and add to tomato sauce.",
+      "Top with Parmesan cheese and serve."
+    ],
+    "difficulty": "beginner",
+    "category": "dinner",
+    "cookTime": 20
+  },
+  {
+    "id": 14,
+    "name": "Pesto Chicken Salad",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/EVjT2Aeo_RH2vn83O8fZeaGZb5g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Creamy-Tuscan-Chicken-LEAD-2Crop-ee530b0ac3294477be690a3f60b67645.jpg",
+    "description": "Refreshing salad with grilled chicken and pesto dressing",
+    "ingredients": [
+      "1 pound grilled chicken",
+      "2 cups mixed greens",
+      "1 cup cherry tomatoes",
+      "1/2 cup cucumber",
+      "1/2 cup pesto dressing",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Toss mixed greens and cherry tomatoes together.",
+      "Add cucumber and grilled chicken to the salad.",
+      "Drizzle pesto dressing over the salad and season with salt and pepper."
+    ],
+    "difficulty": "intermediate",
+    "category": "lunch",
+    "cookTime": 10
+  },
+  {
+    "id": 15,
+    "name": "Pork Chops with Mushroom Sauce",
+    "imgUrl": "https://www.simplyrecipes.com/thmb/4EkuNDBDrL495Zmfiad93nI39-E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__12__Pork-Chops-with-Greens-3-a2ab1102799a46dbb2da96406b327568.jpg",
+    "description": "Savory and flavorful pork chops with a rich mushroom sauce",
+    "ingredients": [
+      "4 pork chops",
+      "1 cup mushroom broth",
+      "1/4 cup heavy cream",
+      "1 tablespoon butter",
+      "1 cup sliced mushrooms",
+      "1/2 cup grated cheddar cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375 degrees.",
+      "Season pork chops with salt and pepper.",
+      "Heat butter in a large skillet over medium-high heat.",
+      "Add sliced mushrooms and cook until softened.",
+      "Add mushroom broth and cream to the skillet and bring to a simmer.",
+      "Add pork chops to the skillet and cook until cooked through."
+    ],
+    "difficulty": "advanced",
+    "category": "dinner",
+    "cookTime": 25
+  }
+]
