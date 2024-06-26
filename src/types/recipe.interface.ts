@@ -1,12 +1,21 @@
 import { FoodCategory } from "./enums/FoodCategory.enum";
+import { RecipeDifficultyEnum } from "./enums/RecipeDifficulty.enum";
 
 // TODO: Incorporate more details
 export interface Recipe {
   id: number;
   name: string;
-  // imgUrl: string;
+  imgUrl: string;
   description: string;
-  ingredients: string[];
+  ingredients: Ingredient[];
   instructions: string[];
-  // category: FoodCategory;
+  difficulty: RecipeDifficultyEnum;
+  cookTime: string;
+  category: FoodCategory;
+}
+
+export interface Ingredient {
+  name: string;
+  quantity: number;
+  unit: string;
 }

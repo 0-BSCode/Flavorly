@@ -1,4 +1,4 @@
-import { Recipe } from "@/types/recipe.interface";
+import { Recipe } from "@/types/Recipe.interface";
 import Link from "next/link";
 
 export async function getRecipeData(id: number) {

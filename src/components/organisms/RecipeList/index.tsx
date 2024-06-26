@@ -1,6 +1,6 @@
 "use client";
 import RecipeCard from "@/components/molecules/RecipeCard";
-import { Recipe } from "@/types/recipe.interface";
+import { Recipe } from "@/types/Recipe.interface";
 import { useEffect, useState } from "react";
 
 const RecipeList = () => {

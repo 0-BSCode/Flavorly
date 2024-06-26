@@ -1,4 +1,4 @@
-import { Recipe } from "@/types/recipe.interface";
+import { Recipe } from "@/types/Recipe.interface";
 import { readFile } from "fs/promises";
 import { NextResponse } from "next/server";
 import path from "path";
