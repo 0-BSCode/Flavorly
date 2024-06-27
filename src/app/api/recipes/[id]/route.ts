@@ -15,7 +15,6 @@ export async function GET(request: Request) {
   try {
     const data = await readFile(FILE_URL, "utf8");
     const recipes: Recipe[] = JSON.parse(data);
-    console.log(recipes);
     recipeData = recipes.filter((recipe) => recipe.id === recipeId)[0];
     if (recipeData === undefined) {
       throw new Error("Can't find recipe");

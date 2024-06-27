@@ -2,6 +2,7 @@ import Badge from "@/components/atoms/Badge";
 import { Recipe } from "@/types/Recipe.interface";
 import Link from "next/link";
 import { FaClock } from "react-icons/fa";
+import TimeBadge from "../TimeBadge";
 
 const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
   return (

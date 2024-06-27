@@ -1,6 +1,10 @@
+import RecipeHeader from "@/components/organisms/RecipeHeader";
+import RecipeTabs from "@/components/organisms/RecipeTabs";
 import { Recipe } from "@/types/Recipe.interface";
 import Link from "next/link";
+import { FaArrowLeft } from "react-icons/fa";
 
+// TODO: Use useEffect to fetch data
 export async function getRecipeData(id: number) {
   const res = await fetch(`http://localhost:3000/api/recipes/${id}`);
 
@@ -22,10 +26,19 @@ export default async function RecipePage({
 }) {
   const recipe: Recipe = await getRecipeData(parseInt(params.id));
   return (
-    <main className='flex flex-col items-center p-24'>
-      <Link href='/'>Go Back</Link>
-      <h1>Recipe Page</h1>
-      <h3>{recipe.name}</h3>
+    <main className='flex flex-col gap-4'>
+      <Link href='/'>
+        <FaArrowLeft />
+      </Link>
+      <RecipeHeader
+        name={recipe.name}
+        description={recipe.description}
+        imgUrl={recipe.imgUrl}
+        cookTime={recipe.cookTime}
+        category={recipe.category}
+        difficulty={recipe.difficulty}
+      />
+      <RecipeTabs ingredients={recipe.ingredients} instructions={recipe.instructions} />
     </main>
   );
 }
