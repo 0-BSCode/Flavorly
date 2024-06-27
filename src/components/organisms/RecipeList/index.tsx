@@ -4,13 +4,15 @@ import { Recipe } from "@/types/Recipe.interface";
 import { useEffect, useState } from "react";
 
 const RecipeList = () => {
-  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [recipes, setRecipes] = useState<Recipe[] | null>(null);
 
   useEffect(() => {
     fetch("/api/recipes")
       .then((res) => res.json())
       .then((data) => setRecipes(data.data));
   }, []);
+
+  if (!recipes) return <p>Loading...</p>;
 
   return (
     <section className='flex flex-wrap gap-2 justify-center'>
