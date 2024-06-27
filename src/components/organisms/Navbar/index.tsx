@@ -1,8 +1,8 @@
 const Navbar = () => {
   return (
-    <nav className='flex items-baseline justify-between bg-primary-100 p-4 text-white'>
-      <h1 className='text-2xl font-bold'>Cooki.</h1>
-      <p className='text-sm text-white'>comfort cooking</p>
+    <nav className='flex items-center justify-between bg-primary-100 p-4 text-white'>
+      <h1 className='text-2xl font-bold md:text-3xl lg:text-xl'>Cooki.</h1>
+      <p className='text-sm italic text-white md:text-md lg:text-sm'>comfort cooking</p>
     </nav>
   );
 };

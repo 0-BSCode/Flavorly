@@ -54,6 +54,10 @@ const config: Config = {
         "success": "#31B057",
         "warning-100": "#804E00",
         "warning-80": "#995E00",
+      },
+      fontSize: {
+        "4xl": "3.25rem",
+        "5xl": "3.5rem"
       }
     },
   },

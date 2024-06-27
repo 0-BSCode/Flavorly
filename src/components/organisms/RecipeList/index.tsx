@@ -15,7 +15,7 @@ const RecipeList = () => {
   if (!recipes) return <p>Loading...</p>;
 
   return (
-    <section className='flex flex-wrap justify-center gap-2'>
+    <section className='flex flex-wrap justify-center gap-2 lg:gap-4'>
       {recipes.map((r) => (
         <RecipeCard key={r.id} recipe={r} />
       ))}
