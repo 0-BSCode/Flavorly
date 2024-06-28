@@ -1,6 +1,5 @@
 "use client";
 
-import List from "@/components/atoms/List";
 import Spinner from "@/components/atoms/Spinner";
 import IngredientsList from "@/components/molecules/IngredientsList";
 import InstructionsList from "@/components/molecules/InstructionsList";

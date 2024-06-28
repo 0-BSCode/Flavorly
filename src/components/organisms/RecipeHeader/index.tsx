@@ -1,7 +1,4 @@
 import Badge from "@/components/atoms/Badge";
-import CategoryBadge from "@/components/molecules/CategoryBadge";
-import DifficultyBadge from "@/components/molecules/DifficultyBadge";
-import TimeBadge from "@/components/molecules/TimeBadge";
 import { Recipe } from "@/types/Recipe.interface";
 import { FaClock } from "react-icons/fa";
 
