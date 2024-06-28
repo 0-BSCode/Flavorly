@@ -1,7 +1,6 @@
 import { FoodCategory } from "./enums/FoodCategory.enum";
 import { RecipeDifficultyEnum } from "./enums/RecipeDifficulty.enum";
 
-// TODO: Incorporate more details
 export interface Recipe {
   id: number;
   name: string;
