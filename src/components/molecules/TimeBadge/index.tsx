@@ -1,5 +1,5 @@
 import Badge from "@/components/atoms/Badge";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { FaClock } from "react-icons/fa";
 
 type TimeBadgeProps = Pick<Recipe, "cookTime">;

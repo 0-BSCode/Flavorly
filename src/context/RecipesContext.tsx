@@ -1,5 +1,5 @@
 "use client";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { createContext, useState } from "react";
 
 type RecipesContextType = {

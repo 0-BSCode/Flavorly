@@ -1,5 +1,5 @@
 "use client";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { useState } from "react";
 
 enum RecipeTabsEnum {

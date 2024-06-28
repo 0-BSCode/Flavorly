@@ -1,5 +1,5 @@
 import Badge from "@/components/atoms/Badge";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { FaTools } from "react-icons/fa";
 
 type DifficultyBadgeProps = Pick<Recipe, "difficulty">;

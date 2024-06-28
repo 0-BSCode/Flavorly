@@ -1,5 +1,5 @@
 import Badge from "@/components/atoms/Badge";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { FaBowlFood } from "react-icons/fa6";
 
 type CategoryBadgeProps = Pick<Recipe, "category">;

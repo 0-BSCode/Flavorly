@@ -2,7 +2,7 @@
 import Spinner from "@/components/atoms/Spinner";
 import RecipeCard from "@/components/molecules/RecipeCard";
 import { RecipesContext } from "@/context/RecipesContext";
-import { Recipe } from "@/types/Recipe.interface";
+import { Recipe } from "@/types/recipe.interface";
 import { useContext, useEffect, useState } from "react";
 
 const RecipeList = () => {
