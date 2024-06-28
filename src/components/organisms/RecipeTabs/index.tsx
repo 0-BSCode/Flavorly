@@ -6,6 +6,7 @@ enum RecipeTabsEnum {
   INGREDIENTS,
   PROCEDURE,
 }
+
 type RecipeTabsProps = Pick<Recipe, "ingredients" | "instructions">;
 const RecipeTabs = (recipeInfo: RecipeTabsProps) => {
   const [activeTab, setActiveTab] = useState<RecipeTabsEnum>(RecipeTabsEnum.INGREDIENTS);

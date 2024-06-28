@@ -1,5 +1,6 @@
 "use client";
 
+import List from "@/components/atoms/List";
 import Spinner from "@/components/atoms/Spinner";
 import RecipeHeader from "@/components/organisms/RecipeHeader";
 import RecipeTabs from "@/components/organisms/RecipeTabs";
@@ -17,6 +18,7 @@ const RecipeDetails = ({ recipeId }: { recipeId: string }) => {
 
   if (!recipe) return <Spinner />;
 
+  const isDesktopSize = window.innerWidth >= 1024;
   return (
     <>
       <RecipeHeader
@@ -27,7 +29,14 @@ const RecipeDetails = ({ recipeId }: { recipeId: string }) => {
         category={recipe.category}
         difficulty={recipe.difficulty}
       />
-      <RecipeTabs ingredients={recipe.ingredients} instructions={recipe.instructions} />
+      {isDesktopSize ? (
+        <div className='flex justify-between gap-7'>
+          <List title='Ingredients' items={recipe.ingredients} isOrdered={false} />
+          <List title='Procedure' items={recipe.instructions} isOrdered={true} />
+        </div>
+      ) : (
+        <RecipeTabs ingredients={recipe.ingredients} instructions={recipe.instructions} />
+      )}
     </>
   );
 };

@@ -9,7 +9,7 @@ type RecipeHeader = Omit<Recipe, "id" | "ingredients" | "instructions">;
 
 const RecipeHeader = (recipeInfo: RecipeHeader) => {
   return (
-    <section className='flex flex-col gap-5 md:gap-8'>
+    <section className='flex flex-col gap-5 md:gap-8 lg:gap-10'>
       <div className='relative h-52 w-full md:h-60 md:rounded-xl lg:h-72'>
         <img
           className='absolute h-full w-full rounded-[inherit] object-cover'
@@ -19,9 +19,9 @@ const RecipeHeader = (recipeInfo: RecipeHeader) => {
         <div className='absolute h-full w-full rounded-[inherit] bg-gradient-to-b from-transparent from-50% to-neutral-black to-95%' />
       </div>
       <div className='flex flex-col items-center gap-2 md:gap-1'>
-        <div className='flex w-full'>
+        <div className='flex w-full xl:justify-center'>
           {/* TODO: Figure out if we should render the remaining badges */}
-          <Badge color='#FFCE80' text={`${recipeInfo.cookTime}m`} icon={<FaClock />} />
+          <Badge color='#FFCE80' text={`${recipeInfo.cookTime}m`} icon={<FaClock className='lg:text-xl' />} />
         </div>
         <h1 className='text-center text-2xl font-bold text-primary-100 md:text-3xl'>{recipeInfo.name}</h1>
         <p className='text-center text-md text-black md:text-lg'>{recipeInfo.description}</p>

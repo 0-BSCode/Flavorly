@@ -18,7 +18,9 @@ export default async function RecipePage({
         <FaArrowLeft />
         <p>Go Back</p>
       </Link>
-      <RecipeDetails recipeId={params.id} />
+      <div className='flex flex-col gap-4 md:gap-8 lg:gap-12'>
+        <RecipeDetails recipeId={params.id} />
+      </div>
     </main>
   );
 }

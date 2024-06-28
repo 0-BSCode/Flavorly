@@ -9,7 +9,7 @@ const Badge = ({ text, color, icon }: BadgeProps) => {
   return (
     <div className='flex w-fit items-center gap-2 rounded-md px-2 py-1' style={{ backgroundColor: color }}>
       {icon}
-      <p className='text-black'>{text}</p>
+      <p className='text-black lg:text-xl'>{text}</p>
     </div>
   );
 };
