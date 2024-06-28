@@ -9,7 +9,7 @@ type RecipeHeader = Omit<Recipe, "id" | "ingredients" | "instructions">;
 
 const RecipeHeader = (recipeInfo: RecipeHeader) => {
   return (
-    <section className='flex flex-col gap-5 md:gap-8 lg:gap-12'>
+    <section className='flex flex-col gap-5 md:gap-8 lg:gap-10'>
       <div className='relative h-52 w-full md:h-60 md:rounded-xl lg:h-72'>
         <img
           className='absolute h-full w-full rounded-[inherit] object-cover'
