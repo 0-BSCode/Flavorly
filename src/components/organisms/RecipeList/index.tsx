@@ -6,7 +6,7 @@ import { Recipe } from "@/types/Recipe.interface";
 import { useContext, useEffect, useState } from "react";
 
 const RecipeList = () => {
-  const { setAllRecipes } = useContext(RecipesContext);
+  const { setAllRecipes, filteredRecipes, setFilteredRecipes } = useContext(RecipesContext);
   const [recipes, setRecipes] = useState<Recipe[] | null>(null);
 
   useEffect(() => {
@@ -14,6 +14,7 @@ const RecipeList = () => {
       .then((res) => res.json())
       .then((data): void => {
         setAllRecipes(data.data);
+        setFilteredRecipes(data.data);
         setRecipes(data.data);
       });
   }, []);
@@ -22,7 +23,7 @@ const RecipeList = () => {
 
   return (
     <section className='flex flex-wrap justify-center gap-2 lg:gap-4'>
-      {recipes.map((r) => (
+      {filteredRecipes.map((r) => (
         <RecipeCard key={r.id} recipe={r} />
       ))}
     </section>
