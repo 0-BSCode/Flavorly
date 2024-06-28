@@ -23,8 +23,10 @@ const RecipeHeader = (recipeInfo: RecipeHeader) => {
           {/* TODO: Figure out if we should render the remaining badges */}
           <Badge color='#FFCE80' text={`${recipeInfo.cookTime}m`} icon={<FaClock className='lg:text-xl' />} />
         </div>
-        <div>
-          <h1 className='text-center text-2xl font-bold text-primary-100 md:text-3xl'>{recipeInfo.name}</h1>
+        <div className='flex flex-col gap-3'>
+          <h1 className='text-center text-2xl font-bold leading-[3.5rem] text-primary-100 md:text-3xl'>
+            {recipeInfo.name}
+          </h1>
           <p className='text-center text-md text-black md:text-lg'>{recipeInfo.description}</p>
         </div>
       </div>
