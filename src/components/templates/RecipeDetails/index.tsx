@@ -2,6 +2,8 @@
 
 import List from "@/components/atoms/List";
 import Spinner from "@/components/atoms/Spinner";
+import IngredientsList from "@/components/molecules/IngredientsList";
+import InstructionsList from "@/components/molecules/InstructionsList";
 import RecipeHeader from "@/components/organisms/RecipeHeader";
 import RecipeTabs from "@/components/organisms/RecipeTabs";
 import { Recipe } from "@/types/Recipe.interface";
@@ -31,8 +33,8 @@ const RecipeDetails = ({ recipeId }: { recipeId: string }) => {
       />
       {isDesktopSize ? (
         <div className='flex justify-between gap-7'>
-          <List title='Ingredients' items={recipe.ingredients} isOrdered={false} />
-          <List title='Procedure' items={recipe.instructions} isOrdered={true} />
+          <IngredientsList title='Ingredients' items={recipe.ingredients} />
+          <InstructionsList title='Instructions' items={recipe.instructions} />
         </div>
       ) : (
         <RecipeTabs ingredients={recipe.ingredients} instructions={recipe.instructions} />
