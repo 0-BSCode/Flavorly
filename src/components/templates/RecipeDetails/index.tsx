@@ -1,5 +1,6 @@
 "use client";
 
+import Spinner from "@/components/atoms/Spinner";
 import RecipeHeader from "@/components/organisms/RecipeHeader";
 import RecipeTabs from "@/components/organisms/RecipeTabs";
 import { Recipe } from "@/types/Recipe.interface";
@@ -14,7 +15,7 @@ const RecipeDetails = ({ recipeId }: { recipeId: string }) => {
       .then((data) => setRecipe(data.data));
   }, []);
 
-  if (!recipe) return <p>Loading...</p>;
+  if (!recipe) return <Spinner />;
 
   return (
     <>

@@ -9,18 +9,22 @@ type RecipeHeader = Omit<Recipe, "id" | "ingredients" | "instructions">;
 
 const RecipeHeader = (recipeInfo: RecipeHeader) => {
   return (
-    <section className='flex flex-col gap-5'>
-      <div className='relative h-52 w-full'>
-        <img className='absolute h-full w-full rounded-lg object-cover' src={recipeInfo.imgUrl} alt={recipeInfo.name} />
-        <div className='absolute h-full w-full rounded-lg bg-gradient-to-b from-transparent from-50% to-neutral-black to-95%' />
+    <section className='flex flex-col gap-5 md:gap-8'>
+      <div className='relative h-52 w-full md:h-60 md:rounded-xl lg:h-72'>
+        <img
+          className='absolute h-full w-full rounded-[inherit] object-cover'
+          src={recipeInfo.imgUrl}
+          alt={recipeInfo.name}
+        />
+        <div className='absolute h-full w-full rounded-[inherit] bg-gradient-to-b from-transparent from-50% to-neutral-black to-95%' />
       </div>
-      <div className='flex flex-col items-center gap-2'>
-        <div className='flex w-full justify-center'>
+      <div className='flex flex-col items-center gap-2 md:gap-1'>
+        <div className='flex w-full'>
           {/* TODO: Figure out if we should render the remaining badges */}
           <Badge color='#FFCE80' text={`${recipeInfo.cookTime}m`} icon={<FaClock />} />
         </div>
-        <h1 className='text-center text-2xl font-bold text-primary-100'>{recipeInfo.name}</h1>
-        <p className='text-center text-md text-black'>{recipeInfo.description}</p>
+        <h1 className='text-center text-2xl font-bold text-primary-100 md:text-3xl'>{recipeInfo.name}</h1>
+        <p className='text-center text-md text-black md:text-lg'>{recipeInfo.description}</p>
       </div>
     </section>
   );
