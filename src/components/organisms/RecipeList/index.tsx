@@ -1,16 +1,21 @@
 "use client";
 import Spinner from "@/components/atoms/Spinner";
 import RecipeCard from "@/components/molecules/RecipeCard";
+import { RecipesContext } from "@/context/RecipesContext";
 import { Recipe } from "@/types/Recipe.interface";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 const RecipeList = () => {
+  const { setAllRecipes } = useContext(RecipesContext);
   const [recipes, setRecipes] = useState<Recipe[] | null>(null);
 
   useEffect(() => {
     fetch("/api/recipes")
       .then((res) => res.json())
-      .then((data) => setRecipes(data.data));
+      .then((data): void => {
+        setAllRecipes(data.data);
+        setRecipes(data.data);
+      });
   }, []);
 
   if (!recipes) return <Spinner />;
