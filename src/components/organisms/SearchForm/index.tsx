@@ -20,18 +20,16 @@ const SearchForm = () => {
   }, [searchText]);
 
   return (
-    <div>
-      <div className='flex items-center gap-2'>
-        <FaSearch className='text-lg' />
-        <input
-          className='flex-1 py-1'
-          id='search'
-          placeholder='Search recipe name'
-          type='text'
-          value={searchText}
-          onChange={handleSearchTextChange}
-        />
-      </div>
+    <div className='mb-2 flex items-center gap-1 rounded-xl border-2 border-neutral-gray-2 px-4 py-1 focus:border-red-400 md:py-2'>
+      <FaSearch className='text-lg md:text-xl' />
+      <input
+        className='flex-1 rounded-lg px-4 py-1 text-md focus:outline-none md:text-lg'
+        id='search'
+        placeholder='Search recipe name'
+        type='text'
+        value={searchText}
+        onChange={handleSearchTextChange}
+      />
     </div>
   );
 };
