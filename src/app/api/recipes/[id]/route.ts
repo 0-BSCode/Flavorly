@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import { readFile } from "fs/promises";
-import path from "path";
 import { Recipe } from "@/types/recipe.interface";
-
-const FILE_URL = path.join("src", "data", "recipes.json");
+import FILE_URL from "../_constants/fileUrl";
 
 export async function GET(request: Request) {
   const requestUrl = request.url.split("/");
