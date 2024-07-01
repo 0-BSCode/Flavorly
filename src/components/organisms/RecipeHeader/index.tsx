@@ -17,7 +17,6 @@ const RecipeHeader = (recipeInfo: RecipeHeader) => {
       </div>
       <div className='flex flex-col items-center gap-2 md:gap-1 lg:gap-4'>
         <div className='flex w-full xl:justify-center'>
-          {/* TODO: Figure out if we should render the remaining badges */}
           <Badge color='#FFCE80' text={`${recipeInfo.cookTime}m`} icon={<FaClock className='lg:text-xl' />} />
         </div>
         <div className='flex flex-col gap-3'>

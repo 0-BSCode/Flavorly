@@ -5,7 +5,6 @@ import { Recipe } from "@/types/recipe.interface";
 
 const FILE_URL = path.join("src", "data", "recipes.json");
 
-// TODO: Standardize error responses
 export async function GET(request: Request) {
   const requestUrl = request.url.split("/");
   const recipeId = parseInt(requestUrl[requestUrl.length - 1]);
