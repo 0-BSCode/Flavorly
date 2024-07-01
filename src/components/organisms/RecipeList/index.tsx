@@ -8,17 +8,23 @@ import { useContext, useEffect, useState } from "react";
 const RecipeList = () => {
   const { setAllRecipes, filteredRecipes, setFilteredRecipes } = useContext(RecipesContext);
   const [recipes, setRecipes] = useState<Recipe[] | null>(null);
+  const [isError, setIsError] = useState(false);
 
   useEffect(() => {
     fetch("/api/recipes")
       .then((res) => res.json())
       .then((data): void => {
+        if (!data.data) {
+          setIsError(true);
+        }
+
         setAllRecipes(data.data);
         setFilteredRecipes(data.data);
         setRecipes(data.data);
       });
   }, []);
 
+  if (isError) throw new Error("Recipes not found");
   if (!recipes) return <Spinner />;
 
   return (
